@@ -1,0 +1,6 @@
+playwright
+beautifulsoup4
+pytest
+openpyxl
+requests
+selenium
