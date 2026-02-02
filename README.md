@@ -86,15 +86,21 @@ If you don't have Git installed or can't create virtual environments:
 2. Click green **Code** button → **Download ZIP**
 3. Extract the ZIP to your desired folder
 
-### 2. Install dependencies
+### 2. Open terminal in the folder
 
-Open Command Prompt (Windows) or Terminal (Mac) in the extracted folder:
+Open Command Prompt (Windows) or Terminal (Mac) and navigate to the extracted folder:
 
 ```bash
-pip install requests beautifulsoup4 openpyxl selenium
+cd eventmonitoringautomation-main
 ```
 
-### 3. Run
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run
 
 ```bash
 python main.py
