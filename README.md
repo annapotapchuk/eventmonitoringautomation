@@ -73,3 +73,31 @@ The Excel file contains:
 - **Source** - Which website the event was scraped from
 
 Events are sorted by date (closest first).
+
+---
+
+## Quick Start for Corporate Laptop (No Git, No Venv)
+
+If you don't have Git installed or can't create virtual environments:
+
+### 1. Download
+
+1. Go to https://github.com/annapotapchuk/eventmonitoringautomation
+2. Click green **Code** button → **Download ZIP**
+3. Extract the ZIP to your desired folder
+
+### 2. Install dependencies
+
+Open Command Prompt (Windows) or Terminal (Mac) in the extracted folder:
+
+```bash
+pip install requests beautifulsoup4 openpyxl selenium
+```
+
+### 3. Run
+
+```bash
+python main.py
+```
+
+The `events.xlsx` file will appear in the same folder with all scraped events.
